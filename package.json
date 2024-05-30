@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "axios": "^1.7.2",
+    "roboto-fontface": "*",
+    "vue": "^3.4.0",
+    "vuetify": "^3.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.3.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.3.0",
+    "sass": "^1.71.1",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.1.5",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
