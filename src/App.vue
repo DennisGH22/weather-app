@@ -47,8 +47,8 @@
     methods: {
       async fetchWeather() {
         const apiKey = import.meta.env.VITE_API_KEY;
-        const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${this.location}&appid=${apiKey}`;
-        const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${this.location}&appid=${apiKey}`;
+        const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${this.location}&appid=${apiKey}&units=metric`;
+        const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${this.location}&appid=${apiKey}&units=metric`;
 
         try {
           const [currentWeatherResponse, forecastResponse] = await Promise.all([
